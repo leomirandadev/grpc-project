@@ -16,12 +16,12 @@ Dependencies:
 Dependencies:
 - google.golang.org/grpc ;
 
-To install protofile you need install first protoc-gen-go, like:
+To create golang protoFile you need install first protoc-gen-go:
 ``` shell
 $ brew install protoc-gen-go
 ```
 
-To install protofile and create client, run on terminal
+After install protoc-gen-go, run on terminal:
 ```shell
-$ protoc -I . posts_service.proto --go_out=plugins=grpc:./go-client/services
+$ protoc --go_out=plugins=grpc:posts_service posts_service.proto
 ```
