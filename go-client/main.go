@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	services "github.com/leomirandadev/grpc-project/services"
+	services "github.com/leomirandadev/grpc-project/go-client/services"
 	"google.golang.org/grpc"
 )
 

@@ -1,4 +1,4 @@
-module github.com/leomirandadev/grpc-project
+module github.com/leomirandadev/grpc-project/go-client
 
 go 1.14
 
